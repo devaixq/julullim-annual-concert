@@ -159,7 +159,7 @@ Well we're all in the mood for a melody
 And you've got us feeling alright` },
   { id: 5, part: 1, number: '05', title: 'Sunday Morning', originalArtist: 'Maroon5', performers: [
     { role: 'Vocal', names: ['박시우'] },
-    { role: 'Guitar', names: ['박시우', '정호성'] },
+    { role: 'Guitar', names: ['박시우', '정호성 (일렉)'] },
     { role: 'Piano', names: ['김한율'] },
     { role: 'Bass', names: ['심현솔'] },
     { role: 'Drum', names: ['박승현'] },
