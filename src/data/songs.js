@@ -68,7 +68,9 @@ export const songs = [
 오늘도 그 사람을 떠올리려 산책을 하네
 오늘도 산책을 하네
 오늘도 산책을 하네` },
-  { id: 3, part: 1, number: '03', title: '화남', originalArtist: 'Okapi', performers: [], lyrics: `쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝
+  { id: 3, part: 1, number: '03', title: '화남', originalArtist: 'Okapi', performers: [
+    { role: 'Guitar', names: ['박성진'] },
+  ], lyrics: `쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝
 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝
 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝
 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝 쿵짝
