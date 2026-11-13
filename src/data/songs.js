@@ -198,7 +198,20 @@ And you may not know
 That may be all I need
 In darkness she is all I see
 Come and rest your bones with me
-Driving slow?` },
+Driving slow on Sunday morning 
+And I never want to leave
+
+That may be all I need
+In darkness she is all I see
+Come and rest your bones with me
+Driving slow on Sunday morning 
+And I never want to leave
+
+That may be all I need
+In darkness she is all I see
+Come and rest your bones with me
+Driving slow on Sunday morning 
+And I never want to leave` },
   { id: 6, part: 1, number: '06', title: '상사화', originalArtist: '안예은', performers: [
     { role: 'Vocal', names: ['박승현'] },
     { role: 'Piano', names: ['유승빈', '현소희'] },
@@ -382,7 +395,12 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 이별이 정해졌던 거군요
 
 이별이 정해졌던 거군요` },
-  { id: 10, part: 1, number: '10', title: '항상 엔진을 켜둘게', originalArtist: '델리스파이스', performers: [], lyrics: `휴일을 앞둔 밤에 아무도 없는 새벽
+  { id: 10, part: 1, number: '10', title: '항상 엔진을 켜둘게', originalArtist: '델리스파이스', performers: [
+    { role: 'Vocal', names: ['신서원'] },
+    { role: 'Guitar', names: ['구도윤', '백용우'] },
+    { role: 'Bass', names: ['심현솔'] },
+    { role: 'Drum', names: ['박승현'] },
+  ], lyrics: `휴일을 앞둔 밤에 아무도 없는 새벽
 도로를 질주해서 바닷가에
 
 아직은 어두운 하늘 천평궁은 빛났고
@@ -401,16 +419,7 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 항상 엔진을 켜둘게
 
 기다릴게 언제라도 출발할 수 있도록
-항상 엔진을 켜둘게
-
-돌아오지 않더라도 난 여기에 서 있겠지
-아마 엔진을 켜둔 채
-
-기다릴게 언제라도 출발할 수 있도록
-항상 엔진을 켜둘게
-
-돌아오지 않더라도 난 여기에 서 있겠지
-아마 엔진을 켜둔 채` },
+항상 엔진을 켜둘게` },
   { id: 11, part: 2, number: '11', title: '봄비', originalArtist: '장범준', performers: [], lyrics: `그녀를 잊어 보려 하지만
 비가 또 내려 모르는 이 맘
 난 지금 비가 오면 떠올라
@@ -556,15 +565,15 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
     { role: 'Piano', names: ['현소희', '심송현'] },
     { role: 'Bass', names: ['이강민'] },
     { role: 'Drum', names: ['홍준서'] },
-  ], lyrics: `happy ever after did exist
+  ], lyrics: `I'm at a payphone trying to call home
+All of my change I've spent on you
+Where are the times gone baby
+It's all wrong, where are the plans we made for two
+
+happy ever after did exist
 I would still be holding you like this
 And all those fairytales are full of shit
 One more fucking love song I'll be sick
-
-I'm at a payphone trying to call home
-All of my change I've spent on you
-Where are the times gone baby
-It's all wrong, we're at the place we made for two
 
 Yeah, I, I know it's hard to remember
 The people we used to be
@@ -573,7 +582,7 @@ That you're not here next to me
 You said it's too late to make it
 But is it too late to try?
 And then that time that you wasted
-All of our bridges burnt down
+All of our bridges burned down
 
 I've wasted my nights
 You turned out the lights
@@ -584,7 +593,7 @@ But even the sun sets in paradise
 I'm at a payphone trying to call home
 All of my change I've spent on you
 Where are the times gone baby
-It's all wrong, we're at the place we made for two
+It's all wrong, where are the plans we made for two
 
 If happy ever after did exist
 I would still be holding you like this
@@ -594,8 +603,8 @@ One more fucking love song I'll be sick
 You turned your back on tomorrow
 Cause you forgot yesterday
 I gave you my love to borrow
-But just gave it away
-You can't expect me to be a friend
+But you just gave it away
+You can't expect me to be a fine
 I don't expect you to care
 I know I said it before
 But all of our bridges burnt down
@@ -609,47 +618,32 @@ But even the sun sets in paradise
 I'm at a payphone trying to call home
 All of my change I've spent on you
 Where are the times gone baby
-It's all wrong, we're at the place we made for two
+It's all wrong, where are the plans we made for two
 
 If happy ever after did exist
 I would still be holding you like this
 And all those fairytales are full of shit
 One more fucking love song I'll be sick
 
-Now I'm at a payphone
-
-Man fuck that shit
-I'll be right here spending all this money while you sitting round
-Wondering why wasn't you who came out from nothing
-Made it from the botton
-Now when you see me I'm struting
-And all of my cause a way to push up a button
-Telling me the chances I blew up or whatever you call it
-Switched the number to my phone
-So you never can call it
-Don't need my name, or my show
-You can tell it I'm ballin'
-Shish, what a shame coulda got picked
-Had a really good game but you missed your last shot
-So you talk about who you see at the top
-Or what you could've saw
-But sad to say it's over for it
-Phantom roll out valet open doors
-Where's the car way, got what you was looking for
-Now ask me who they want
-So you can go take that little piece of shit with you
+So baby don’t hang on
+So i can tell you what you need to know
+baby i’m begging you
+Please don’t go  
+So l can tell you what you need to know
 
 I'm at a payphone trying to call home
 All of my change I've spent on you
 Where are the times gone baby
-It's all wrong, we're at the place we made for two
+It's all wrong, where are the plans we made for two
+
 
 If happy ever after did exist
 I would still be holding you like this
 And all these fairytales are full of shit
 One more fucking love song I'll be sick
 
-Now I'm at a payphone` },
+Now I'm at a payphone
+` },
   { id: 16, part: 2, number: '16', title: 'Love Never Felt So Good', originalArtist: 'Michael Jackson', performers: [], lyrics: `Baby love never felt so good
 And I doubt if it ever could
 Not like you hold me hold me
@@ -795,7 +789,13 @@ Doo-doo, doo-doo, doo-doo, doo-doo-doo
 I just might
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Oh, I just might` },
-  { id: 18, part: 2, number: '18', title: 'Rewrite the Stars', originalArtist: 'Zac Efron & Zendaya', performers: [], lyrics: `You know I want you
+  { id: 18, part: 2, number: '18', title: 'Rewrite the Stars', originalArtist: 'Zac Efron & Zendaya', performers: [
+    { role: 'Vocal', names: ['전재민', '권아영'] },
+    { role: 'Guitar', names: ['박시우'] },
+    { role: 'Piano', names: ['김한율', '김세정'] },
+    { role: 'Bass', names: ['김윤호'] },
+    { role: 'Drum', names: ['홍준서'] },
+  ], lyrics: `You know I want you
 It's not a secret I try to hide
 I know you want me
 So don't keep sayin' our hands are tied
