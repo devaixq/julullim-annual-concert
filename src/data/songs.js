@@ -121,8 +121,10 @@ export const songs = [
 치키차카지기장좌장두구두구탁탁쿵짝
 쿵짝 쿵짝 쿵짝 쿵짝 지기장 좌장 쾅` },
   { id: 4, part: 1, number: '04', title: 'Piano Man', originalArtist: 'Billy Joel', performers: [
-    { role: 'Vocal & Guitar & Harmonica', names: ['최이흠'] },
+    { role: 'Vocal', names: ['최이흠'] },
+    { role: 'Guitar', names: ['최이흠'] },
     { role: 'Piano', names: ['심송현'] },
+    { role: 'Harmonica', names: ['최이흠'] },
   ], lyrics: `It's nine o'clock on a saturday
 The regular crowd shuffles in
 There's an old man sitting next to me
