@@ -31,7 +31,10 @@ export const songs = [
 
 하얗게 밝아 온 유리창에
 썼다 지운다 널 사랑해` },
-  { id: 2, part: 1, number: '02', title: '산책', originalArtist: '백예린', performers: [], lyrics: `한적한 밤 산책하다 보면
+  { id: 2, part: 1, number: '02', title: '산책', originalArtist: '백예린', performers: [
+    { role: 'Vocal', names: ['박민주'] },
+    { role: 'Piano', names: ['이승환'] },
+  ], lyrics: `한적한 밤 산책하다 보면
 어김없이 생각나는 얼굴
 반짝이는 별을 모아 그리는 그런 사람
 
@@ -65,58 +68,63 @@ export const songs = [
 오늘도 그 사람을 떠올리려 산책을 하네
 오늘도 산책을 하네
 오늘도 산책을 하네` },
-  { id: 3, part: 1, number: '03', title: '화남', originalArtist: 'Okapi', performers: [], lyrics: `` },
-  { id: 4, part: 1, number: '04', title: 'Piano Man', originalArtist: 'Billy Joel', performers: [], lyrics: `It's nine o'clock on a saturday
+  { id: 3, part: 1, number: '03', title: '화남', originalArtist: 'Okapi', performers: [], lyrics: `♩♪ ♫♬
+
+지기장 쿵짝 치키 좌장
+둠칫 두둠칫 쿵짝짝
+
+♪♫ ♩♬
+치키치키 짱짱 쿵짝
+두구두구 탁, 쿵짝!
+
+♬♫♪♩
+지기장 쿵짝 치키 좌장` },
+  { id: 4, part: 1, number: '04', title: 'Piano Man', originalArtist: 'Billy Joel', performers: [
+    { role: 'Vocal', names: ['최이흠'] },
+    { role: 'Piano', names: ['심송현'] },
+  ], lyrics: `It's nine o'clock on a saturday
 The regular crowd shuffles in
 There's an old man sitting next to me
 Making love to his tonic and gin
+
 He says son can you play me a memory
 I'm not really sure how it goes
 But it's sad and it's sweet
 And I knew it complete
 When I wore a younger man's clothes
+
+la la la la la 
+la la la la la
+
 Sing us a song you're the piano man
 Sing us a song tonight
 Well we're all in the mood for a melody
 And you've got us feeling alright
+
 Now john at the bar is a friend of mine
 He gets me my drinks for free
 And he's quick with a joke
 Or to light up your smoke
 But there's someplace that he'd rather be
+
 He says bill I believe this is killing me
 As a smile ran away from his face
 Well I'm sure that I could be a movie star
 If I could get out of this place
-Now paul is a real estate novelist
-Who never had time for a wife
-And he's talking with davy
-Who's still in the navy
-And probably will be for life
-And the waitress is practicing politics
-As the businessmen slowly get stoned
-Yes they're sharing a drink
-They call loneliness
-But it's better than drinking alone
-Sing us a song you're the piano man
-Sing us a song tonight
-Well we're all in the mood for a melody
-And you've got us feeling alright
-It's a pretty good crowd for a saturday
-And the manager gives me a smile
-'Cause he knows that it's me
-They've been coming to see
-To forget about life for a while
-And the piano it sounds like a carnival
-And the microphone smells like a beer
-And they sit at the bar
-And put bread in my jar
-And say man what are you doing here?
+
+(piano solo)
+
 Sing us a song you're the piano man
 Sing us a song tonight
 Well we're all in the mood for a melody
 And you've got us feeling alright` },
-  { id: 5, part: 1, number: '05', title: 'Sunday Morning', originalArtist: 'Maroon5', performers: [], lyrics: `Sunday morning rain is falling
+  { id: 5, part: 1, number: '05', title: 'Sunday Morning', originalArtist: 'Maroon5', performers: [
+    { role: 'Vocal', names: ['박시우'] },
+    { role: 'Guitar', names: ['박시우', '정호성'] },
+    { role: 'Piano', names: ['김한율'] },
+    { role: 'Bass', names: ['심현솔'] },
+    { role: 'Drum', names: ['박승현'] },
+  ], lyrics: `Sunday morning rain is falling
 Steal some covers share some skin
 Clouds are shrouding us in moments unforgettable
 You twist to fit the mold that I am in
@@ -152,7 +160,10 @@ That may be all I need
 In darkness she is all I see
 Come and rest your bones with me
 Driving slow?` },
-  { id: 6, part: 1, number: '06', title: '상사화', originalArtist: '안예은', performers: [], lyrics: `사랑이 왜 이리 고된가요 
+  { id: 6, part: 1, number: '06', title: '상사화', originalArtist: '안예은', performers: [
+    { role: 'Vocal', names: ['박승현'] },
+    { role: 'Piano', names: ['유승빈', '현소희'] },
+  ], lyrics: `사랑이 왜 이리 고된가요 
 이게 맞는가요 나만 이런가요
 고운 얼굴 한 번 못 보고서 
 이리 보낼 수 없는데
@@ -184,7 +195,13 @@ Driving slow?` },
 이리 나를 떠나오
 긴긴 겨울이 모두 지났는데 
 왜 나를 떠나가오` },
-  { id: 7, part: 1, number: '07', title: '오늘의 기분', originalArtist: '치즈', performers: [], lyrics: `이대로 가만히 있어도 될까
+  { id: 7, part: 1, number: '07', title: '오늘의 기분', originalArtist: '치즈', performers: [
+    { role: 'Vocal', names: ['김고은'] },
+    { role: 'Guitar', names: ['박시우'] },
+    { role: 'Piano', names: ['김한율'] },
+    { role: 'Bass', names: ['인병두'] },
+    { role: 'Drum', names: ['양지훈'] },
+  ], lyrics: `이대로 가만히 있어도 될까
 지루해 매일 나 책상에 앉아
 할 일이 많아
 이제는 내가 알게 뭐람 
@@ -289,7 +306,13 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 삶은 늘 망가졌지
 쩝쩝대는 역겨운 무리들과
 우리` },
-  { id: 9, part: 1, number: '09', title: '소년시절', originalArtist: '신지훈', performers: [], lyrics: `잠시 눈 감아보니
+  { id: 9, part: 1, number: '09', title: '소년시절', originalArtist: '신지훈', performers: [
+    { role: 'Vocal', names: ['김고은'] },
+    { role: 'Guitar', names: ['박시우', '김상우'] },
+    { role: 'Piano', names: ['김한율'] },
+    { role: 'Bass', names: ['심송현'] },
+    { role: 'Drum', names: ['홍준서'] },
+  ], lyrics: `잠시 눈 감아보니
 살아왔던 이 모든 게 어린 날의 꿈만 같아
 엄마가 다시 날 불러주면
 깨어나 한 번만 더 안길 텐데
@@ -449,7 +472,10 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 초침으로 심장을 찔러서
 톱니바퀴 안으로 들어가
 시간을 돌리는 나` },
-  { id: 14, part: 2, number: '14', title: '하루의 끝', originalArtist: '종현', performers: [], lyrics: `손을 뻗어줘 내 목을 감싸줘
+  { id: 14, part: 2, number: '14', title: '하루의 끝', originalArtist: '종현', performers: [
+    { role: 'Vocal', names: ['임선우'] },
+    { role: 'Piano', names: ['유승빈'] },
+  ], lyrics: `손을 뻗어줘 내 목을 감싸줘
 좀 더 아래 내 어깰 주물러 줘
 지쳐버린 하루 끝 이미 해가 떴어도
 난 이제야 눈을 감으니
@@ -485,7 +511,18 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 
 수고했어요 정말 고생했어요
 그댄 나의 자랑이죠` },
-  { id: 15, part: 2, number: '15', title: 'PayPhone', originalArtist: 'Maroon5', performers: [], lyrics: `I'm at a payphone trying to call home
+  { id: 15, part: 2, number: '15', title: 'PayPhone', originalArtist: 'Maroon5', performers: [
+    { role: 'Vocal', names: ['노은성'] },
+    { role: 'Guitar', names: ['박시우'] },
+    { role: 'Piano', names: ['현소희', '심송현'] },
+    { role: 'Bass', names: ['이강민'] },
+    { role: 'Drum', names: ['홍준서'] },
+  ], lyrics: `happy ever after did exist
+I would still be holding you like this
+And all those fairytales are full of shit
+One more fucking love song I'll be sick
+
+I'm at a payphone trying to call home
 All of my change I've spent on you
 Where are the times gone baby
 It's all wrong, we're at the place we made for two
@@ -645,7 +682,14 @@ Never felt so good
 It never felt so good
 Never felt so good
 Alright that's fine` },
-  { id: 17, part: 2, number: '17', title: 'I Just Might', originalArtist: 'Bruno Mars', performers: [], lyrics: `One, two, three, four
+  { id: 17, part: 2, number: '17', title: 'I Just Might', originalArtist: 'Bruno Mars', performers: [
+    { role: 'Vocal', names: ['노은성'] },
+    { role: 'Guitar', names: ['백용우'] },
+    { role: 'Piano', names: ['김한율', '유승빈'] },
+    { role: 'Bass', names: ['심현솔'] },
+    { role: 'Drum', names: ['박승현'] },
+    { role: 'Chorus', names: ['최이흠', '박시우'] },
+  ], lyrics: `One, two, three, four
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 Doo-doo, doo-doo, doo-doo, doo-doo-doo
 
@@ -878,7 +922,13 @@ RAT 1개를 내 장사 밑천으로 삼고 있지
 そしたらベンジー、あたしをグレッチで殴って
 소시타라 벤지 아타시오 그레치데 붓테
 그렇다면 벤지 날 그레치로 때려줘` },
-  { id: 20, part: 2, number: '20', title: 'Just the Two of Us', originalArtist: 'Grover Washington Jr. (ft. Bill Withers)', performers: [], lyrics: `I see the crystal raindrops fall
+  { id: 20, part: 2, number: '20', title: 'Just the Two of Us', originalArtist: 'Grover Washington Jr. (ft. Bill Withers)', performers: [
+    { role: 'Vocal', names: ['임선우'] },
+    { role: 'Guitar', names: ['정호성'] },
+    { role: 'Piano', names: ['유승빈'] },
+    { role: 'Bass', names: ['인병두'] },
+    { role: 'Drum', names: ['박승현'] },
+  ], lyrics: `I see the crystal raindrops fall
 And the beauty of it all
 Is when the sun comes shining through
 To make those rainbows in my mind
@@ -927,7 +977,13 @@ We can make it
 Just the two of us
 We can make it
 Just the two of us` },
-  { id: 21, part: 2, number: '21', title: '그대에게 닿을 때까지', originalArtist: '로이킴', performers: [], lyrics: `보이질 않니 끝없이 새겨진 나의 마음이
+  { id: 21, part: 2, number: '21', title: '그대에게 닿을 때까지', originalArtist: '로이킴', performers: [
+    { role: 'Vocal', names: ['전재민'] },
+    { role: 'Guitar', names: ['박시우'] },
+    { role: 'Piano', names: ['김한율', '이승환'] },
+    { role: 'Bass', names: ['김윤호'] },
+    { role: 'Drum', names: ['홍준서'] },
+  ], lyrics: `보이질 않니 끝없이 새겨진 나의 마음이
 밤하늘 위에 검은색으로 채워놨는데
 
 시간이 걸려도 언젠가 알아봐 주길
