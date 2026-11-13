@@ -121,10 +121,8 @@ export const songs = [
 치키차카지기장좌장두구두구탁탁쿵짝
 쿵짝 쿵짝 쿵짝 쿵짝 지기장 좌장 쾅` },
   { id: 4, part: 1, number: '04', title: 'Piano Man', originalArtist: 'Billy Joel', performers: [
-    { role: 'Vocal', names: ['최이흠'] },
-    { role: 'Guitar', names: ['최이흠'] },
+    { role: 'Vocal & Guitar & Harmonica', names: ['최이흠'] },
     { role: 'Piano', names: ['심송현'] },
-    { role: 'Harmonica', names: ['최이흠'] },
   ], lyrics: `It's nine o'clock on a saturday
 The regular crowd shuffles in
 There's an old man sitting next to me
@@ -307,7 +305,12 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 
 아무도 몰라요 
 오늘의 기분은` },
-  { id: 8, part: 1, number: '08', title: 'Pigs', originalArtist: 'Bye Bye Badman', performers: [], lyrics: `기억해 줘
+  { id: 8, part: 1, number: '08', title: 'Pigs', originalArtist: 'Bye Bye Badman', performers: [
+    { role: 'Vocal', names: ['이강민'] },
+    { role: 'Guitar', names: ['백용우'] },
+    { role: 'Piano', names: ['이승환'] },
+    { role: 'Bass', names: ['심현솔'] },
+  ], lyrics: `기억해 줘
 난 힘이 다했어
 눈이 멀어
 차마 채우지 못한 기준
@@ -424,7 +427,10 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 
 기다릴게 언제라도 출발할 수 있도록
 항상 엔진을 켜둘게` },
-  { id: 11, part: 2, number: '11', title: '봄비', originalArtist: '장범준', performers: [], lyrics: `그녀를 잊어 보려 하지만
+  { id: 11, part: 2, number: '11', title: '봄비', originalArtist: '장범준', performers: [
+    { role: 'Vocal', names: ['최이흠'] },
+    { role: 'Guitar', names: ['최이흠', '인병두'] },
+  ], lyrics: `그녀를 잊어 보려 하지만
 비가 또 내려 모르는 이 맘
 난 지금 비가 오면 떠올라
 네가 더 내려오려는 이 밤
@@ -489,7 +495,11 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 옛사랑 생각에 그 길 찾아가지
 광화문거리 흰눈에 덮혀가고
 하얀눈 하늘높이 자꾸 올라가네` },
-  { id: 13, part: 2, number: '13', title: '외로움 증폭장치', originalArtist: '버스커 버스커', performers: [], lyrics: `내가 미쳤죠
+  { id: 13, part: 2, number: '13', title: '외로움 증폭장치', originalArtist: '버스커 버스커', performers: [
+    { role: 'Vocal', names: ['최이흠', '박시우', '전재민'] },
+    { role: 'Guitar', names: ['최이흠', '박시우'] },
+    { role: 'Cajon', names: ['전재민'] },
+  ], lyrics: `내가 미쳤죠
 내가 또 왜 날 이렇게
 모든 게 다 한심하게
 우 살다니
@@ -655,7 +665,7 @@ Now I'm at a payphone
   { id: 16, part: 2, number: '16', title: 'Love Never Felt So Good', originalArtist: 'Michael Jackson', performers: [
     { role: 'Vocal', names: ['김주혜'] },
     { role: 'Guitar', names: ['정호성', '박시우'] },
-    { role: 'Piano', names: ['김세정', '김승환'] },
+    { role: 'Piano', names: ['김세정', '이승환'] },
     { role: 'Bass', names: ['심송현'] },
     { role: 'Drum', names: ['나선우'] },
   ], lyrics: `Baby love never felt so good
