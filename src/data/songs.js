@@ -120,7 +120,9 @@ export const songs = [
 쿵짝 쿵짝 쿵짝 쿵짝 지기장 좌장 쾅` },
   { id: 4, part: 1, number: '04', title: 'Piano Man', originalArtist: 'Billy Joel', performers: [
     { role: 'Vocal', names: ['최이흠'] },
+    { role: 'Guitar', names: ['최이흠'] },
     { role: 'Piano', names: ['심송현'] },
+    { role: 'Harmonica', names: ['최이흠'] },
   ], lyrics: `It's nine o'clock on a saturday
 The regular crowd shuffles in
 There's an old man sitting next to me
@@ -159,7 +161,7 @@ Well we're all in the mood for a melody
 And you've got us feeling alright` },
   { id: 5, part: 1, number: '05', title: 'Sunday Morning', originalArtist: 'Maroon5', performers: [
     { role: 'Vocal', names: ['박시우'] },
-    { role: 'Guitar', names: ['박시우', '정호성 (일렉)'] },
+    { role: 'Guitar', names: ['박시우', '정호성'] },
     { role: 'Piano', names: ['김한율'] },
     { role: 'Bass', names: ['심현솔'] },
     { role: 'Drum', names: ['박승현'] },
@@ -452,7 +454,11 @@ And I 오늘의 기분만큼만 웃어보면 어떨까요
 기다렸던 비가 떨어지면
 한 번 더 그날의 기억이 번지고
 사랑했던 비가 떨어진다` },
-  { id: 12, part: 2, number: '12', title: '옛사랑', originalArtist: '이문세', performers: [], lyrics: `남들도 모르게 서성이다 울었지
+  { id: 12, part: 2, number: '12', title: '옛사랑', originalArtist: '이문세', performers: [
+    { role: 'Vocal', names: ['이보현'] },
+    { role: 'Guitar', names: ['최이흠'] },
+    { role: 'Piano', names: ['현소희'] },
+  ], lyrics: `남들도 모르게 서성이다 울었지
 지나온 일들이 가슴에 사무쳐
 텅빈 하늘 밑 불빛들 켜져가면
 옛사랑 그 이름 아껴 불러보네
@@ -644,7 +650,13 @@ One more fucking love song I'll be sick
 
 Now I'm at a payphone
 ` },
-  { id: 16, part: 2, number: '16', title: 'Love Never Felt So Good', originalArtist: 'Michael Jackson', performers: [], lyrics: `Baby love never felt so good
+  { id: 16, part: 2, number: '16', title: 'Love Never Felt So Good', originalArtist: 'Michael Jackson', performers: [
+    { role: 'Vocal', names: ['김주혜'] },
+    { role: 'Guitar', names: ['정호성', '박시우'] },
+    { role: 'Piano', names: ['김세정', '김승환'] },
+    { role: 'Bass', names: ['심송현'] },
+    { role: 'Drum', names: ['나선우'] },
+  ], lyrics: `Baby love never felt so good
 And I doubt if it ever could
 Not like you hold me hold me
 Oh baby
@@ -1063,6 +1075,10 @@ Just the two of us` },
 언제라도 저 해가 저물면
 그 어둠을 두려워 말아요
 그저 나의 사랑이 더 짙어진 것뿐이에요
+
+그대가 내게 남기고 떠난
+반짝이는 저 별들 사이에
+빈자리들 모두 그대로 남겨뒀어요
 
 우리가 함께 약속했었던
 그곳에서 나 기다릴게요
